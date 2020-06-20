@@ -22,7 +22,7 @@ title: hafertill
 email: hafertill@posteo.me
 description: >- # this means to ignore newlines until "baseurl:"
   I am a data journalist from Germany, working for several public broadcasters.
-  This page is meant as a personal notebook/showcase/whatever.
+  This page is meant as a personal notebook / showcase / whatever.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hafertill
