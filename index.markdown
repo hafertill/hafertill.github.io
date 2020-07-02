@@ -1,11 +1,15 @@
 ---
 
 layout: home
-list_title: "Latest Posts"
+list_title: "Aktuelle Beiträge"
 
 ---
 
-<div class="home-lead"><h1>Hey there!</h1>
-My name is Till. I am a (mostly self-taught) data journalist and data viz enthusiast.
-On this page I plan to post ideas and projects, both private and work-related.
-Enjoy and feel free to <a href="/contact/">get in touch</a>!</div>
+>### <i class="fas fa-hand-sparkles"></i> Moin!
+Ich bin Till. Ich arbeite als Datenjournalist und Social Media-Redakteur
+für hr und WDR und möchte auf dieser Seite ein paar Ideen und Projekte
+veröffentlichen, die mir gelegentlich im Kopf
+herumschwirren. Viel Spaß damit!
+>
+>Mehr über mich? [Gibts hier.](/about/)
+Fragen, Anregungen, Job-Angebote? [Hier lang.](/contact/)
