@@ -9,15 +9,33 @@ h2 {
   margin-top: 25px;
 }
 
-.home-lead {
-  font-size: 1.2rem;
+blockquote {
   color: #666;
   padding: 15px;
   margin-bottom: 40px;
   background-color: #eee;
-  border-radius: 5px;
+  font-style: normal;
 }
 
+.site-title::after, .footer-heading::after {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  padding-left: 5px;
+  letter-spacing: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f201 \f004";
+}
+
+.post-content {
+  font-size: 1.2em;
+}
+
+/* about me viz */
+.yAxisskills {display: none;}
 
 /* Post list */
 
