@@ -37,7 +37,7 @@ layout: default
         <div class="tags-container small-tags">
           {% for tag in post.tags %}
           <a href="#{{ tag | slugify }}" class="taglink">
-            {% octicon tag height:14 fill:currentColor %} &nbsp;{{ tag }}
+            <i class="fas fa-tag"></i> &nbsp;{{ tag }}
           </a>
           {% endfor %}
         </div>
