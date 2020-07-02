@@ -22,8 +22,8 @@ title: hafertill
 author: Till Hafermann
 email: hafertill@posteo.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome! Here I present ideas and projects about data analysis and viz,
-  mainly in R, sprinkled with some Python, Javascript etc.
+  Moin! Hier gibt es datenjournalistische Ideen und Projekte von Till Hafermann,
+  hauptsächlich in R, manchmal auch in Python, Javascript etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hafertill
@@ -35,12 +35,13 @@ show_excerpts: true
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-octicons
+
 
 # navigation
 header_pages:
   - topics.html
   - about.markdown
+  - contact.markdown
 
 
 # Exclude from processing.
