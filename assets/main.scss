@@ -5,6 +5,15 @@
 
 /* Tweaks */
 
+body {
+  font-family: 'work_sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'young', serif;
+  // font-size: 1.4em;
+}
+
 h2 {
   margin-top: 25px;
 }
@@ -28,6 +37,10 @@ blockquote {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f201 \f004";
+}
+
+.footer-heading {
+  font-family: 'work_sans', sans-serif;
 }
 
 .post-content {

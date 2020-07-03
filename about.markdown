@@ -84,6 +84,10 @@ beschäftigt.
 
 <i class="fas fa-icons"></i> Die Icons auf dieser Seite kommen von [Fontawesome](https://www.fontawesome.com).
 
+<i class="fas fa-font"></i> Die verwendeten Schriftarten sind
+<span style="font-family:'young';">[Young Serif](https://github.com/uplaod/YoungSerif)</span> und
+[Work Sans](https://github.com/weiweihuanghuang/Work-Sans/).
+
 <i class="fab fa-github-square"></i> Diese Seite wurde mit [Github Pages](https://pages.github.com/)
 und [Jekyll](https://jekyllrb.com/) realisiert.
 
