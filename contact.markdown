@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Kontakt
+icon: <i class="fas fa-comment"></i> 
 permalink: /contact/
 ---
 

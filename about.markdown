@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Über mich
+icon: <i class="fas fa-user-astronaut"></i>
 permalink: /about/
 ---
 
