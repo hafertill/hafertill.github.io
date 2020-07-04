@@ -39,7 +39,7 @@ auch die Geschichten dazu erzählen, sei es als Text, als Radio-Stück oder
       margin: {top: 50, bottom: 150, left: 50, right: 50},
       data: {
         labels: ['R', 'Data-Viz', 'Python', 'Javascript',
-        'Web/HTML','Bildbearbeitung','Videobearbeitung', 'Audio-Schnitt'],
+        'Web/HTML/CMS','Bildbearbeitung','Videobearbeitung', 'Audio-Schnitt'],
         values: [10, 10, 7, 5, 7, 7, 5, 6]
       },
       width: document.getElementById("skills").offsetWidth,
@@ -63,8 +63,8 @@ Hilfe von tollen Kolleg*innen und mit vielen großartigen Anleitungen im Interne
 
 Zeitraum  | Tätigkeit  
 --|--
-seit 2020  |  freie Mitarbeit im WDR-Datenteam  
-seit 2019    |  Social Media-Redakteur und Datendinge im WDR-Newsroom
+seit 2020  |  freie Mitarbeit im WDR-Datenteam, <br>Datendinge im WDR-Newsroom  
+seit 2019    |  Social Media-Redakteur im WDR-Newsroom
 seit 2018    |  Programmierender Redakteur im hr-Datenteam
 2018 - 2019  |  Hörfunk-Reporter im hr, Bereich Hesseninformationen
 2017 - 2018  |  Redakteur in der hr-Kommunikation
@@ -89,17 +89,8 @@ beschäftigt.
 <span style="font-family:'young';">[Young Serif](https://github.com/uplaod/YoungSerif)</span> und
 [Work Sans](https://github.com/weiweihuanghuang/Work-Sans/).
 
-<i class="fab fa-github-square"></i> Diese Seite wurde mit [Github Pages](https://pages.github.com/)
-und [Jekyll](https://jekyllrb.com/) realisiert.
-
-- Das Theme der Seite ist Minima:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-- Der Quellcode für Jekyll liegt auf Github:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
+<i class="fab fa-github-square"></i> Diese Seite läuft auf [Github Pages](https://pages.github.com/)
+mit [Jekyll](https://jekyllrb.com/) (Theme: [minima](https://github.com/jekyll/minima)).
 
 <i class="fas fa-grin-hearts"></i> Und ja, ich stehe auf Icons.
 
