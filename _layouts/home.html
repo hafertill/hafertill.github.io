@@ -19,7 +19,7 @@ layout: default
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+      <h2 class="post-list-heading"><i class="fas fa-seedling"></i> {{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list big-margin">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -29,6 +29,17 @@ layout: default
         <h2 class="post-title">
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
+            {% for tag in post.tags %}
+              {% if tag == "Javascript" %}
+                <i class="fab fa-js"></i>
+              {% endif %}
+              {% if tag == "Python" %}
+                <i class="fab fa-python"></i>
+              {% endif %}
+              {% if tag == "R" %}
+                <i class="fab fa-r-project"></i>
+              {% endif %}
+            {% endfor %}
           </a>
         </h2>
         {%- if site.show_excerpts -%}

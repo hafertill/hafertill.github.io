@@ -4,7 +4,20 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="name headline">
+      {{ page.title | escape }}
+      {% for tag in page.tags %}
+        {% if tag == "Javascript" %}
+          <i class="fab fa-js"></i>
+        {% endif %}
+        {% if tag == "Python" %}
+          <i class="fab fa-python"></i>
+        {% endif %}
+        {% if tag == "R" %}
+          <i class="fab fa-r-project"></i>
+        {% endif %}
+      {% endfor %}
+    </h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -26,8 +39,8 @@ layout: default
       {%- endif -%}</p>
       <div class="tags-container small-tags">
         {% for tag in page.tags %}
-        <a href="#{{ tag | slugify }}" class="taglink">
-          {% octicon tag height:14 fill:currentColor %} &nbsp;{{ tag }}
+        <a href="/topics/#{{ tag | slugify }}" class="taglink">
+          <i class="fas fa-tag"></i> &nbsp;{{ tag }}
         </a>
         {% endfor %}
       </div>
