@@ -47,8 +47,119 @@ blockquote {
   font-size: 1.2em;
 }
 
+
+/* about me image */
+
+.about_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.about_img {
+  padding: 0 10%;
+}
+
+
+.about_txt {
+  font-family: 'young', serif;
+  font-size: 1.3em;
+  color: #606060;
+  line-height: 180%;
+  // text-align: right;
+}
+
+.about_img img {
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+.about_top {
+  flex-direction: row;
+}
+
+  .about_img {
+    width: 30%;
+    padding: 0;
+  }
+
+  .about_txt {
+    width: 60%;
+  }
+}
+
 /* about me viz */
 .yAxisskills {display: none;}
+
+/* about me skills icon flip */
+
+.wordCarousel {
+  text-align: left;
+  color: #111;
+  margin: 0 0 26px 0;
+    div {
+        overflow: hidden;
+        position: relative;
+        float: left;
+        height: 65px;
+        padding-top: 10px;
+        padding-left: 0px;
+        margin-top: -10px;
+        margin-left: 0px;
+        ul {
+          margin: 0px;
+          padding: 0px;
+          li {
+            padding-right: 5px;
+            font-weight: 700;
+            // padding: 0 10px;
+            height: 45px;
+            margin-bottom: 45px;
+            margin-left: 0px;
+            display: block;
+          }
+        }
+    }
+}
+
+.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
 
 /* Post list */
 
