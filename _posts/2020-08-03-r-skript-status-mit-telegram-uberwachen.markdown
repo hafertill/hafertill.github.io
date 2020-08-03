@@ -11,7 +11,7 @@ oder auf den Server gucken zu müssen? Mit einem Telegram-Bot!
 
 <!-- more -->
 
-#### Die Idee
+## Die Idee
 
 Für die Corona-Berichterstattung auf [hessenschau.de](https://www.hessenschau.de/panorama/infografik-wie-sich-corona-ausbreitet---und-wen-es-betrifft,corona-infektionen-hessen-karte-100.html)
 rufen mehrere Skripte Zahlen von verschiedenen Endpunkten ab. Dabei kann
@@ -24,7 +24,7 @@ sind. Die Lösung: Ein Telegram-Bot, der mir eine Nachricht aufs Handy schickt.
 
 ![Screenshot einer Status-Meldung](/images/2020/08/screenshot.jpg)
 
-#### Wie funktioniert's?
+## Wie funktioniert's?
 
 Mit dem [`telegram`-Package](https://github.com/lbraglia/telegram) von
 [lbraglia](https://github.com/lbraglia/telegram) habe ich ein Dummy-Skript

@@ -17,7 +17,7 @@ Vor der Landtagswahl 2018 habe ich gemeinsam mit einem Programmier-Kollegen
 für das hr-Datenteam ein Quartettspiel entwickelt, in dem die Wahlkreise
 gegeneinander antreten können.
 
-#### Die Idee
+## Die Idee
 
 Die Idee entstand bei einem Hackathon bei der Deutschen Welle zusammen
 mit deutschen und schwedischen Kollegen. Thema des Hackathons war globale
