@@ -22,7 +22,7 @@ layout: default
       <h2 class="post-list-heading"><i class="fas fa-seedling"></i> {{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list big-margin">
-      {%- assign date_format = site.minima.date_format | default: "%-d. %B %Y" -%}
+      {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
       {%- for post in posts -%}
       <li>
         <h4 class="post-date">{{ post.date | date: date_format }}</h4>
