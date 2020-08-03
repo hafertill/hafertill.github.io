@@ -8,7 +8,7 @@ tags:
 ---
 
 Daten über viele Kategorien zu vergleichen (z.B. bei Wahlkreisen) kann mühsam
-und langweilig sein. Wie lässt sich das spannender gestallten, ohne ein Dashboard
+und langweilig sein. Wie lässt sich das spannender gestalten, ohne ein Dashboard
 zu verwenden? Vielleicht mit einem Spiel.
 
 <!-- more -->
