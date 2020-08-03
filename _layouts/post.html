@@ -20,8 +20,8 @@ layout: default
     </h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%-d. %B %Y" -%}
-      <time class="dt-published" datetime="{{ page.date | html5date }}" itemprop="datePublished">
-        {{ page.date | date: germanDate }}
+      <time class="dt-published" datetime="{{ post.date | html5date }}" itemprop="datePublished">
+        {{ post.date | date: germanDate }}
       </time>
       {%- if page.modified_date -%}
         ~
