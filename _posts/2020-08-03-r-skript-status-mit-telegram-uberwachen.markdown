@@ -22,7 +22,7 @@ und so weiter, habe ich nach einer Möglichkeit gesucht, mich schnell und
 komfortabel informieren zu lassen, ob die Skripte ohne Probleme durchgelaufen
 sind. Die Lösung: Ein Telegram-Bot, der mir eine Nachricht aufs Handy schickt.
 
-![Screenshot der Status-Meldung](https://github.com/hafertill/r-telegram-bot/raw/master/screenshot.jpg)
+![Screenshot einer Status-Meldung](images/2020/08/screenshot.jpg)
 
 #### Wie funktioniert's?
 
