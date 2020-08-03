@@ -35,7 +35,6 @@ show_excerpts: true
 theme: minima
 plugins:
   - jekyll-feed
-  - german_dates
 
 
 # navigation
